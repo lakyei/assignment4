@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainform{
+    display: flex;
+    height: 100vh;
+    background-color: teal;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex: 0.15;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    font-size: 30px;
+     color: teal;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -1px -1px 20px 0px gray;
+   
+}
+
+
+.input{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-control{
+     padding: 10px 10px;
+    border-radius: 5px;
+    border: 1xp gray;
+    
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+
+.labelinput{
+    margin-bottom: 10px;
+}
+
+
+::placeholder{
+  
+    color: rgb(194, 187, 187);
+
+}
+
+.button{
+    display: flex;
+    flex: 0.15;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+
+.signup{
+    padding: 10px 10px;
+    margin: 0px 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px double transparent;
+    background-color: teal;
+    color: white;
+    box-shadow: -1px 0px 10px 0px gray;
+}
+
+.signup:hover{
+    background: rgb(79, 83, 92);
+    color: white;
+}
+
+
